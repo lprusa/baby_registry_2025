@@ -45,17 +45,20 @@
             background-color: #45a049; /*Darker shade of green on hover*/
         }
         .banner-image {
-            width: 100%;  /* Makes the image take up the full width */
+            width: 65%;  /* Set image to 65% width */
+            max-width: 1000px; /*Sets a maximum width for large screens */
             max-height: 300px; /* Sets a max height */
-            object-fit: contain; /* Ensures the image covers the area well; Scales the image to fit inside its container without cropping, preserving aspect ratio */
+            object-fit: cover; /* Ensures the image covers the area well */
             display: block; /* Removes any white space at the bottom*/
+            margin-left: auto; /* Centers the image horizontally by adjusting margins */
+            margin-right: auto;
         }
 
     </style>
 </head>
 <body>
 
-    <img src="banner_image.jpg" alt="Baby Shower Banner" class="banner-image">
+    <img src="banner.jpg" alt="Baby Shower Banner" class="banner-image">
 
     <h1>You're Invited to Our Baby Shower!</h1>
     
@@ -63,7 +66,7 @@
         <p><b>Date:</b> [Insert Date Here]</p>
         <p><b>Time:</b> [Insert Time Here]</p>
         <p><b>Location:</b> [Insert Location Here]</p>
-        <p>Join us as we celebrate the upcoming arrival of our little Louis Jr.!</p>
+        <p>Join us as we celebrate the upcoming arrival of our little one!</p>
     </div>
 
     <h2>Gift Registries</h2>
